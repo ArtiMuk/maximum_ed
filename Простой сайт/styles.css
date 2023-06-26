@@ -30,6 +30,14 @@
 	gap: 15px;
 }
 
+.paragraphs> p:first-child {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	font-style: italic;
+	font-size: 24px;
+}
+
 .functional {
 	display: flex;
 	justify-content: center;
@@ -55,6 +63,7 @@ button {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+	text-shadow: green 4px 2px 2px;
 }
 .images {
 	display: flex;
